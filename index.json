@@ -1,29 +1,35 @@
 {
-  "format": "macinspector-module-library",
-  "version": 1,
-  "name": "MacInspector 社区模块库",
-  "modules": [
+  "format" : "macinspector-module-library",
+  "modules" : [
     {
-      "id": "cpu",
-      "name": "CPU",
-      "description": "CPU 使用率 / 温度 / 核心监控（官方示例）",
-      "file": "modules/cpu.json",
-      "author": "Zekilou",
-      "tags": [
+      "author" : "Zekilou",
+      "description" : "CPU 使用率 \/ 温度 \/ 核心监控（官方示例）",
+      "file" : "modules\/cpu.json",
+      "id" : "cpu",
+      "name" : "CPU",
+      "tags" : [
         "cpu",
         "官方"
       ]
     },
     {
-      "id": "battery",
-      "name": "Battery",
-      "description": "电池电量 / 状态 / 充电时间监控（官方示例）",
-      "file": "modules/battery.json",
-      "author": "Zekilou",
-      "tags": [
+      "author" : "Zekilou",
+      "description" : "电池电量 \/ 状态 \/ 充电时间监控（官方示例）",
+      "file" : "modules\/battery.json",
+      "id" : "battery",
+      "name" : "Battery",
+      "tags" : [
         "battery",
         "官方"
       ]
+    },
+    {
+      "author" : "zeki",
+      "file" : "modules\/gpu.json",
+      "id" : "gpu",
+      "name" : "GPU"
     }
-  ]
+  ],
+  "name" : "MacInspector 社区模块库",
+  "version" : 1
 }
