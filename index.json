@@ -1,0 +1,29 @@
+{
+  "format": "macinspector-module-library",
+  "version": 1,
+  "name": "MacInspector 社区模块库",
+  "modules": [
+    {
+      "id": "cpu",
+      "name": "CPU",
+      "description": "CPU 使用率 / 温度 / 核心监控（官方示例）",
+      "file": "modules/cpu.json",
+      "author": "Zekilou",
+      "tags": [
+        "cpu",
+        "官方"
+      ]
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "description": "电池电量 / 状态 / 充电时间监控（官方示例）",
+      "file": "modules/battery.json",
+      "author": "Zekilou",
+      "tags": [
+        "battery",
+        "官方"
+      ]
+    }
+  ]
+}

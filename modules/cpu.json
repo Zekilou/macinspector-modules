@@ -1,0 +1,1916 @@
+{
+  "format": "macinspector-module",
+  "version": 1,
+  "module": {
+    "popoverLayout": "vertical",
+    "menuBarWidth": 56,
+    "order": 3,
+    "color": "#007AFF",
+    "menuBarHeight": 22,
+    "popoverAlignment": "leading",
+    "menuBarLayout": "horizontal",
+    "menuBarElements": [
+      {
+        "chart": {
+          "cornerRadius": 2,
+          "kind": "horizontalBar",
+          "variable": "",
+          "min": 0,
+          "historyPoints": 60,
+          "width": 6,
+          "max": 100,
+          "fillColor": "",
+          "showLabel": false,
+          "historyWindow": 0,
+          "height": 12
+        },
+        "type": "row",
+        "content": "",
+        "forEach": {
+          "base": "",
+          "count": ""
+        },
+        "propertyExpressions": {},
+        "style": {
+          "isVisible": true,
+          "backgroundColor": "",
+          "borderWidth": 1,
+          "color": "#FFFFFF",
+          "shadowOffsetX": 0,
+          "shadowRadius": 0,
+          "animationDuration": 0,
+          "shadowColor": "",
+          "shadowOffsetY": 0,
+          "opacity": 1,
+          "cornerRadius": 0,
+          "borderColor": "",
+          "conditions": []
+        },
+        "layout": {
+          "rotation": 0,
+          "horizontalAlign": "center",
+          "spacing": 3,
+          "offsetX": 0,
+          "orientation": "horizontal",
+          "offsetY": 0,
+          "verticalAlign": "center"
+        },
+        "text": {
+          "fontDesign": "default",
+          "numberFormat": "raw",
+          "fontSize": 11,
+          "truncation": "tail",
+          "width": 0,
+          "prefix": "",
+          "weight": "regular",
+          "tracking": 0,
+          "suffix": ""
+        },
+        "behavior": {
+          "rightClickAction": "none",
+          "stateBinding": "",
+          "actionPayload": "",
+          "stateDefault": 0,
+          "tapAction": "none"
+        },
+        "padding": {
+          "bottom": 0,
+          "trailing": 0,
+          "top": 0,
+          "leading": 0
+        },
+        "children": [
+          {
+            "chart": {
+              "cornerRadius": 2,
+              "kind": "horizontalBar",
+              "min": 0,
+              "variable": "",
+              "historyPoints": 60,
+              "width": 6,
+              "max": 100,
+              "fillColor": "",
+              "showLabel": false,
+              "historyWindow": 0,
+              "height": 12
+            },
+            "type": "icon",
+            "content": "cpu",
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "propertyExpressions": {},
+            "style": {
+              "isVisible": true,
+              "backgroundColor": "",
+              "borderWidth": 1,
+              "color": "#007AFF",
+              "shadowOffsetX": 0,
+              "shadowRadius": 0,
+              "animationDuration": 0,
+              "shadowColor": "",
+              "shadowOffsetY": 0,
+              "opacity": 1,
+              "cornerRadius": 0,
+              "borderColor": "",
+              "conditions": []
+            },
+            "layout": {
+              "rotation": 0,
+              "horizontalAlign": "center",
+              "spacing": 4,
+              "offsetX": 0,
+              "orientation": "horizontal",
+              "offsetY": 0,
+              "verticalAlign": "center"
+            },
+            "text": {
+              "fontDesign": "default",
+              "numberFormat": "raw",
+              "fontSize": 11,
+              "truncation": "tail",
+              "width": 0,
+              "prefix": "",
+              "weight": "regular",
+              "tracking": 0,
+              "suffix": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "children": [],
+            "id": "64636A1F-377C-4D09-883F-5824E69F8B1A",
+            "icon": {
+              "size": 11,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            }
+          },
+          {
+            "chart": {
+              "cornerRadius": 2,
+              "kind": "horizontalBar",
+              "min": 0,
+              "variable": "",
+              "historyPoints": 60,
+              "width": 6,
+              "max": 100,
+              "fillColor": "",
+              "showLabel": false,
+              "historyWindow": 0,
+              "height": 12
+            },
+            "type": "text",
+            "content": "{cpu_usage}%",
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "propertyExpressions": {},
+            "style": {
+              "isVisible": true,
+              "backgroundColor": "",
+              "borderWidth": 1,
+              "color": "#FFFFFF",
+              "shadowOffsetX": 0,
+              "shadowRadius": 0,
+              "animationDuration": 0,
+              "shadowColor": "",
+              "shadowOffsetY": 0,
+              "opacity": 1,
+              "cornerRadius": 0,
+              "borderColor": "",
+              "conditions": []
+            },
+            "layout": {
+              "rotation": 0,
+              "horizontalAlign": "center",
+              "spacing": 4,
+              "offsetX": 0,
+              "orientation": "horizontal",
+              "offsetY": 0,
+              "verticalAlign": "center"
+            },
+            "text": {
+              "fontDesign": "default",
+              "numberFormat": "raw",
+              "fontSize": 10,
+              "truncation": "tail",
+              "width": 0,
+              "prefix": "",
+              "weight": "regular",
+              "tracking": 0,
+              "suffix": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "children": [],
+            "id": "DD496821-1951-497B-A952-2820C7DCC0AB",
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            }
+          },
+          {
+            "chart": {
+              "cornerRadius": 1,
+              "kind": "verticalBar",
+              "min": 0,
+              "variable": "{cpu_usage}",
+              "historyPoints": 60,
+              "width": 3,
+              "max": 100,
+              "fillColor": "#007AFF",
+              "showLabel": false,
+              "historyWindow": 0,
+              "height": 12
+            },
+            "type": "chart",
+            "content": "",
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "propertyExpressions": {},
+            "style": {
+              "isVisible": true,
+              "backgroundColor": "",
+              "borderWidth": 1,
+              "color": "#FFFFFF",
+              "shadowOffsetX": 0,
+              "shadowRadius": 0,
+              "animationDuration": 0,
+              "shadowColor": "",
+              "shadowOffsetY": 0,
+              "opacity": 1,
+              "cornerRadius": 0,
+              "borderColor": "",
+              "conditions": []
+            },
+            "layout": {
+              "rotation": 0,
+              "horizontalAlign": "center",
+              "spacing": 4,
+              "offsetX": 0,
+              "orientation": "horizontal",
+              "offsetY": 0,
+              "verticalAlign": "center"
+            },
+            "text": {
+              "fontDesign": "default",
+              "numberFormat": "raw",
+              "fontSize": 11,
+              "truncation": "tail",
+              "width": 0,
+              "prefix": "",
+              "weight": "regular",
+              "tracking": 0,
+              "suffix": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "children": [],
+            "id": "057E9B6D-A179-419B-BDCC-25B0F666C631",
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            }
+          }
+        ],
+        "id": "D2060791-1815-48C2-A556-2CDFD22F4D4A",
+        "icon": {
+          "size": 14,
+          "dynamicVariable": "",
+          "dynamicKind": "sfSymbol",
+          "symbolWeight": "regular"
+        }
+      }
+    ],
+    "popoverElements": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 18
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#007AFF",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "cpu",
+                "type": "icon",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 11,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "DB5DEF08-A11F-42B7-A845-CEF43CA1E268",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              },
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 14
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "CPU",
+                "type": "text",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 18,
+                  "weight": "semibold",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "E9F8C700-550D-4BDA-ADB5-328C5FC5C1A1",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              },
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 8
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "",
+                "type": "spacer",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 11,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "C29E66B7-9FAC-425E-8980-092159B0D29D",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              },
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 14
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#007AFF",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "{cpu_usage}%",
+                "type": "text",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 24,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "B3523D40-0EA7-47BD-AB21-3DA7258626A1",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              }
+            ],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "style": {
+              "color": "#FFFFFF",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 8,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "row",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "309AEE5A-D7DD-4834-88E0-384A3D663392",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 12,
+              "width": 6,
+              "cornerRadius": 2,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "",
+              "variable": ""
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 8,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          },
+          {
+            "children": [],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "style": {
+              "color": "#FFFFFF",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "chart",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "890829ED-DCD5-4183-8744-10D20F49FF57",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 6,
+              "width": 280,
+              "cornerRadius": 3,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "#007AFF",
+              "variable": "{cpu_usage}"
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 4,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          },
+          {
+            "children": [],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "style": {
+              "color": "#FFFFFF15",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "divider",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "EA22172D-3CB2-4D53-A3CE-2DF6D81FCC16",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 12,
+              "width": 6,
+              "cornerRadius": 2,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "",
+              "variable": ""
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 4,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 10
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF55",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "square.grid.3x3",
+                "type": "icon",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 11,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "DA945AE3-8D40-49F8-ADF6-E68D2A86E80D",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              },
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 14
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF55",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "Cores",
+                "type": "text",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 10,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "52A72054-325D-45FD-871E-C775A5EF224B",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              }
+            ],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "style": {
+              "color": "#FFFFFF",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "row",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "A2C63335-77F8-48EC-B40E-A1FF3BFA7D81",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 12,
+              "width": 6,
+              "cornerRadius": 2,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "",
+              "variable": ""
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 4,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "icon": {
+                      "dynamicVariable": "",
+                      "dynamicKind": "sfSymbol",
+                      "symbolWeight": "regular",
+                      "size": 14
+                    },
+                    "forEach": {
+                      "count": "",
+                      "base": ""
+                    },
+                    "style": {
+                      "color": "#FFFFFF99",
+                      "cornerRadius": 0,
+                      "opacity": 1,
+                      "borderWidth": 1,
+                      "isVisible": true,
+                      "shadowColor": "",
+                      "shadowOffsetX": 0,
+                      "animationDuration": 0,
+                      "conditions": [],
+                      "shadowOffsetY": 0,
+                      "shadowRadius": 0,
+                      "backgroundColor": "",
+                      "borderColor": ""
+                    },
+                    "behavior": {
+                      "actionPayload": "",
+                      "tapAction": "none",
+                      "rightClickAction": "none",
+                      "stateBinding": "",
+                      "stateDefault": 0
+                    },
+                    "propertyExpressions": {},
+                    "padding": {
+                      "trailing": 0,
+                      "leading": 0,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "content": "{cpu_core_{i}}%",
+                    "type": "text",
+                    "text": {
+                      "fontSize": 9,
+                      "fontDesign": "default",
+                      "width": 32,
+                      "weight": "regular",
+                      "prefix": "",
+                      "numberFormat": "raw",
+                      "suffix": "",
+                      "truncation": "tail",
+                      "tracking": 0
+                    },
+                    "id": "B5B55658-F2F6-4DED-9E55-64CE33EAC6DC",
+                    "chart": {
+                      "showLabel": false,
+                      "max": 100,
+                      "height": 12,
+                      "width": 6,
+                      "cornerRadius": 2,
+                      "historyWindow": 0,
+                      "kind": "horizontalBar",
+                      "min": 0,
+                      "historyPoints": 60,
+                      "fillColor": "",
+                      "variable": ""
+                    },
+                    "layout": {
+                      "horizontalAlign": "center",
+                      "verticalAlign": "center",
+                      "spacing": 4,
+                      "offsetY": 0,
+                      "rotation": 0,
+                      "orientation": "horizontal",
+                      "offsetX": 0
+                    }
+                  },
+                  {
+                    "children": [],
+                    "icon": {
+                      "dynamicVariable": "",
+                      "dynamicKind": "sfSymbol",
+                      "symbolWeight": "regular",
+                      "size": 14
+                    },
+                    "forEach": {
+                      "count": "",
+                      "base": ""
+                    },
+                    "style": {
+                      "color": "#FFFFFF",
+                      "cornerRadius": 0,
+                      "opacity": 1,
+                      "borderWidth": 1,
+                      "isVisible": true,
+                      "shadowColor": "",
+                      "shadowOffsetX": 0,
+                      "animationDuration": 0,
+                      "conditions": [],
+                      "shadowOffsetY": 0,
+                      "shadowRadius": 0,
+                      "backgroundColor": "",
+                      "borderColor": ""
+                    },
+                    "behavior": {
+                      "actionPayload": "",
+                      "tapAction": "none",
+                      "rightClickAction": "none",
+                      "stateBinding": "",
+                      "stateDefault": 0
+                    },
+                    "propertyExpressions": {},
+                    "padding": {
+                      "trailing": 0,
+                      "leading": 0,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "content": "",
+                    "type": "chart",
+                    "text": {
+                      "fontSize": 11,
+                      "fontDesign": "default",
+                      "width": 0,
+                      "weight": "regular",
+                      "prefix": "",
+                      "numberFormat": "raw",
+                      "suffix": "",
+                      "truncation": "tail",
+                      "tracking": 0
+                    },
+                    "id": "6AAD25FA-635C-4E84-9203-E9C843812268",
+                    "chart": {
+                      "showLabel": false,
+                      "max": 100,
+                      "height": 4,
+                      "width": 240,
+                      "cornerRadius": 2,
+                      "historyWindow": 0,
+                      "kind": "horizontalBar",
+                      "min": 0,
+                      "historyPoints": 60,
+                      "fillColor": "#007AFF",
+                      "variable": "{cpu_core_{i}}"
+                    },
+                    "layout": {
+                      "horizontalAlign": "center",
+                      "verticalAlign": "center",
+                      "spacing": 4,
+                      "offsetY": 0,
+                      "rotation": 0,
+                      "orientation": "horizontal",
+                      "offsetX": 0
+                    }
+                  }
+                ],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 14
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "",
+                "type": "row",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 11,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "3BBE6985-A7C4-4061-9B1B-93204F50856B",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 6,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              }
+            ],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "cpu_core_",
+              "count": "{cpu_cores}"
+            },
+            "style": {
+              "color": "#FFFFFF",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "forEach",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "ACC5764E-AD2A-4690-8732-AC82A5A0CF17",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 12,
+              "width": 6,
+              "cornerRadius": 2,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "",
+              "variable": ""
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 4,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          },
+          {
+            "children": [],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "style": {
+              "color": "#FFFFFF15",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "divider",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "9898E183-3BFB-4C27-803C-6B36B4BA9BD1",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 12,
+              "width": 6,
+              "cornerRadius": 2,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "",
+              "variable": ""
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 4,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 14
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF55",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "{cpu_name}",
+                "type": "text",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 9,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "58520B0C-CA78-4BFE-A11B-7292307A1678",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              },
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 8
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "",
+                "type": "spacer",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 11,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "04CE97CD-4672-4D59-907E-19721F646533",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              },
+              {
+                "children": [],
+                "icon": {
+                  "symbolWeight": "regular",
+                  "dynamicVariable": "",
+                  "dynamicKind": "sfSymbol",
+                  "size": 14
+                },
+                "forEach": {
+                  "count": "",
+                  "base": ""
+                },
+                "style": {
+                  "color": "#FFFFFF55",
+                  "cornerRadius": 0,
+                  "opacity": 1,
+                  "borderWidth": 1,
+                  "isVisible": true,
+                  "shadowColor": "",
+                  "shadowOffsetX": 0,
+                  "animationDuration": 0,
+                  "conditions": [],
+                  "shadowOffsetY": 0,
+                  "shadowRadius": 0,
+                  "backgroundColor": "",
+                  "borderColor": ""
+                },
+                "behavior": {
+                  "stateBinding": "",
+                  "actionPayload": "",
+                  "stateDefault": 0,
+                  "tapAction": "none",
+                  "rightClickAction": "none"
+                },
+                "propertyExpressions": {},
+                "padding": {
+                  "trailing": 0,
+                  "top": 0,
+                  "bottom": 0,
+                  "leading": 0
+                },
+                "content": "{cpu_freq} GHz",
+                "type": "text",
+                "text": {
+                  "fontDesign": "default",
+                  "fontSize": 9,
+                  "weight": "regular",
+                  "width": 0,
+                  "prefix": "",
+                  "numberFormat": "raw",
+                  "suffix": "",
+                  "truncation": "tail",
+                  "tracking": 0
+                },
+                "id": "5404CFC0-119E-45C9-8A17-ED78C6D84880",
+                "chart": {
+                  "showLabel": false,
+                  "max": 100,
+                  "height": 12,
+                  "width": 6,
+                  "cornerRadius": 2,
+                  "historyWindow": 0,
+                  "kind": "horizontalBar",
+                  "min": 0,
+                  "historyPoints": 60,
+                  "fillColor": "",
+                  "variable": ""
+                },
+                "layout": {
+                  "horizontalAlign": "center",
+                  "verticalAlign": "center",
+                  "spacing": 4,
+                  "offsetY": 0,
+                  "rotation": 0,
+                  "orientation": "horizontal",
+                  "offsetX": 0
+                }
+              }
+            ],
+            "icon": {
+              "size": 14,
+              "dynamicVariable": "",
+              "symbolWeight": "regular",
+              "dynamicKind": "sfSymbol"
+            },
+            "forEach": {
+              "base": "",
+              "count": ""
+            },
+            "style": {
+              "color": "#FFFFFF",
+              "cornerRadius": 0,
+              "opacity": 1,
+              "borderWidth": 1,
+              "isVisible": true,
+              "shadowColor": "",
+              "shadowOffsetX": 0,
+              "animationDuration": 0,
+              "conditions": [],
+              "shadowOffsetY": 0,
+              "shadowRadius": 0,
+              "backgroundColor": "",
+              "borderColor": ""
+            },
+            "behavior": {
+              "stateBinding": "",
+              "stateDefault": 0,
+              "actionPayload": "",
+              "tapAction": "none",
+              "rightClickAction": "none"
+            },
+            "propertyExpressions": {},
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "trailing": 0,
+              "leading": 0
+            },
+            "content": "",
+            "type": "row",
+            "text": {
+              "fontDesign": "default",
+              "fontSize": 11,
+              "weight": "regular",
+              "width": 0,
+              "prefix": "",
+              "numberFormat": "raw",
+              "suffix": "",
+              "truncation": "tail",
+              "tracking": 0
+            },
+            "id": "429953E6-96DB-42A4-AE0C-6F55513B7414",
+            "chart": {
+              "showLabel": false,
+              "max": 100,
+              "height": 12,
+              "width": 6,
+              "cornerRadius": 2,
+              "historyWindow": 0,
+              "kind": "horizontalBar",
+              "min": 0,
+              "historyPoints": 60,
+              "fillColor": "",
+              "variable": ""
+            },
+            "layout": {
+              "horizontalAlign": "center",
+              "verticalAlign": "center",
+              "spacing": 6,
+              "offsetY": 0,
+              "rotation": 0,
+              "orientation": "horizontal",
+              "offsetX": 0
+            }
+          }
+        ],
+        "icon": {
+          "size": 14,
+          "dynamicVariable": "",
+          "dynamicKind": "sfSymbol",
+          "symbolWeight": "regular"
+        },
+        "forEach": {
+          "base": "",
+          "count": ""
+        },
+        "style": {
+          "color": "#FFFFFF",
+          "cornerRadius": 0,
+          "opacity": 1,
+          "borderWidth": 1,
+          "isVisible": true,
+          "shadowColor": "",
+          "shadowOffsetX": 0,
+          "animationDuration": 0,
+          "conditions": [],
+          "shadowOffsetY": 0,
+          "shadowRadius": 0,
+          "backgroundColor": "",
+          "borderColor": ""
+        },
+        "behavior": {
+          "rightClickAction": "none",
+          "stateBinding": "",
+          "actionPayload": "",
+          "stateDefault": 0,
+          "tapAction": "none"
+        },
+        "propertyExpressions": {},
+        "padding": {
+          "bottom": 0,
+          "trailing": 0,
+          "top": 0,
+          "leading": 0
+        },
+        "content": "",
+        "type": "column",
+        "text": {
+          "fontSize": 11,
+          "fontDesign": "default",
+          "width": 0,
+          "weight": "regular",
+          "prefix": "",
+          "numberFormat": "raw",
+          "suffix": "",
+          "tracking": 0,
+          "truncation": "tail"
+        },
+        "id": "55B3B9EF-D666-4A90-A3C0-08A88DD76FC9",
+        "chart": {
+          "showLabel": false,
+          "max": 100,
+          "height": 12,
+          "width": 6,
+          "cornerRadius": 2,
+          "historyWindow": 0,
+          "kind": "horizontalBar",
+          "min": 0,
+          "historyPoints": 60,
+          "fillColor": "",
+          "variable": ""
+        },
+        "layout": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "spacing": 10,
+          "offsetY": 0,
+          "rotation": 0,
+          "orientation": "horizontal",
+          "offsetX": 0
+        }
+      }
+    ],
+    "popoverWidth": 280,
+    "popoverHeight": 320,
+    "menuBarAlignment": "center",
+    "id": "cpu",
+    "showInMenuBar": true,
+    "name": "CPU",
+    "icon": "cpu",
+    "source": "builtin"
+  },
+  "metadata": {
+    "author": "Zekilou",
+    "description": "CPU 使用率 / 温度 / 核心监控（官方示例）",
+    "version": "1.0.0",
+    "tags": [
+      "cpu",
+      "官方"
+    ],
+    "minAppVersion": "2.0.0",
+    "createdAt": "2026-08-19T09:50:27Z",
+    "updatedAt": "2026-08-19T09:50:27Z"
+  }
+}
